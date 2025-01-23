@@ -1,0 +1,126 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 11916900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na tela do BugBank",
+            "match": {
+              "location": "HomeSteps.queEstejaNaTelaDoBugBank()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3115456000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "faço o registro",
+            "match": {
+              "location": "UtilsSteps.façoORegistro()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-23T23:21:42.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1437436500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login no BugBank",
+        "description": "",
+        "id": "login;login-no-bugbank",
+        "after": [
+          {
+            "result": {
+              "duration": 92600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.fecharDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2178659400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "realizo o login",
+            "match": {
+              "location": "UtilsSteps.realizoOLogin()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2034940000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "devera ser apresentado na tela o texto \"bem vindo ao BugBank :)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bem vindo ao BugBank :)\"",
+                  "offset": 39
+                }
+              ],
+              "location": "UtilsSteps.deveraSerApresentadoNaTelaOTexto(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2End"
+          },
+          {
+            "name": "@testeAtual"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:Features/testeLogin.feature",
+    "tags": [
+      {
+        "name": "@end2End",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

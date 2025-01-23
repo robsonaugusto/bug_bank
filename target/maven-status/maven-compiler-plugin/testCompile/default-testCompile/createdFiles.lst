@@ -1,0 +1,7 @@
+steps\UtilsSteps.class
+pages\HomePage.class
+runners\Runner.class
+steps\Hooks.class
+utils\utils.class
+steps\HomeSteps.class
+pages\UtilsPage.class
